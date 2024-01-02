@@ -5,15 +5,15 @@ public class Book {
     String author;
     int page;
 
-    public Book(){
+    Book(){
         this("제목", "작가", 500);
     }
 
-    public Book(String title, String author) {
+    Book(String title, String author) {
         this(title, author, 500);
     }
 
-    public Book(String title, String author, int page) {
+    Book(String title, String author, int page) {
         this.title = title;
         this.author = author;
         this.page = page;
